@@ -1,3 +1,3 @@
-# First Blog
+# First Note
 
 This is a placeholder.
