@@ -27,7 +27,7 @@
 # | - https://www.mkdocs.org/user-guide/configuration/#site_url                                            |
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
-site_name: "dhyey20.github.io"
+site_name: "Dhyey's Blog"
 site_description: 'Place for me to share my thoughts and ideas.'
 site_author: 'Dhyey Shah'
 site_url: 'https://dhyey20.github.io'
@@ -75,7 +75,7 @@ docs_dir: docs/
 # | - https://www.mkdocs.org/user-guide/configuration/#edit_uri                                            |
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
-repo_name: 'dhyey20/dhyey20.github.io'
+repo_name: 'dhyey20.github.io'
 repo_url: https://github.com/dhyey20/dhyey20.github.io
 #edit_uri: tree/master/docs # Uncomment to define a different URI/URL for the "edit" option
 
@@ -179,7 +179,7 @@ theme:
     # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#color-scheme              |
     # |                                                                                                    |
     # +----------------------------------------------------------------------------------------------------+
-    scheme: 'slate'
+    scheme: 'default'
     
     # +----------------------------------------------------------------------------------------------------+
     # |                                                                                                    |
@@ -191,7 +191,7 @@ theme:
     # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#primary-color             |
     # |                                                                                                    |
     # +----------------------------------------------------------------------------------------------------+
-    primary: 'blue'
+    primary: 'light blue'
     
     # +----------------------------------------------------------------------------------------------------+
     # |                                                                                                    |
@@ -201,7 +201,7 @@ theme:
     # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#accent-color              |
     # |                                                                                                    |
     # +----------------------------------------------------------------------------------------------------+
-    accent: 'blue'
+    accent: 'cyan'
     
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
@@ -278,13 +278,13 @@ theme:
   # Navigation:
   #
   #- navigation.expand      # Expand all collapsable sections.
-  #- navigation.instant     # Instant loading pages.
-  #- navigation.indexes     # Attach pages directly to Sections. Incompatible with "toc.integrate"
-  #- navigation.sections    # Render top sections as groups.
-  - navigation.tabs         # Render top sections as tabs at the top.
-  #- navigation.tabs.sticky # Tabs won't disappear when scrolling down. Requires "navigation.tabs".
-  #- navigation.top         # Adds a "Back to top" that is shown when scrolling up.
-  #- navigation.tracking    # Updates the url with highlighted section anchor.
+  # - navigation.instant     # Instant loading pages.
+  # - navigation.indexes     # Attach pages directly to Sections. Incompatible with "toc.integrate"
+  # - navigation.sections    # Render top sections as groups.
+  # - navigation.tabs         # Render top sections as tabs at the top.
+  # - navigation.tabs.sticky # Tabs won't disappear when scrolling down. Requires "navigation.tabs".
+  # - navigation.top         # Adds a "Back to top" that is shown when scrolling up.
+  # - navigation.tracking    # Updates the url with highlighted section anchor.
   
   # Search
   #
@@ -397,7 +397,7 @@ theme:
 # | - https://www.mkdocs.org/user-guide/configuration/#extra                                               |
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
-# extra:
+extra:
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
   # | The social section allows you to set a list of entries which would be displayed in the footer of the |
@@ -412,9 +412,9 @@ theme:
   # | - https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links              |
   # |                                                                                                      |
   # +------------------------------------------------------------------------------------------------------+
-  # social:
-  #   - icon: 'fontawesome/brands/github'
-  #     link: 'https://github.com/Andre601/mkdocs-template'
+  social:
+    - icon: 'fontawesome/brands/linkedin'
+      link: 'https://www.linkedin.com/in/dhyey/'
   
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
@@ -501,3 +501,7 @@ markdown_extensions:
   #- pymdownx.tabbed:
   #- pymdownx.tasklist:
   #- pymdownx.tilde:
+
+plugins: 
+  - search
+  - awesome-nav
