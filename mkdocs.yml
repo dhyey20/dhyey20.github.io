@@ -505,3 +505,4 @@ markdown_extensions:
 plugins: 
   - search
   - awesome-nav
+  - git-revision-date-localized
