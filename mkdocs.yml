@@ -425,7 +425,7 @@ extra:
   # | - https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#generator-notice          |
   # |                                                                                                      |
   # +------------------------------------------------------------------------------------------------------+
-  #generator: true
+  generator: true
   
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
@@ -506,3 +506,4 @@ plugins:
   - search
   - awesome-nav
   - git-revision-date-localized
+  - rss
