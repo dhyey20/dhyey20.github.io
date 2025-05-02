@@ -477,6 +477,9 @@ markdown_extensions:
       guess_lang: false
   - markdown.extensions.toc:
       permalink: true
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
   #- pymdownx.arithmex:
   #- pymdownx.b64:
   #- pymdownx.betterem:

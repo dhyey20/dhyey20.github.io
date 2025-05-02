@@ -1,5 +1,7 @@
 # Why Smaller Pull Requests Make Better Code
 
+![why smaller prs matter](./images/why-smaller-prs-matter.png)
+
 As a software engineer, one thing I consistently advocate for is keeping pull requests small and focused. It’s not just a matter of preference, it’s a practice that improves code quality, speeds up reviews, and reduces risk.
 
 Here’s why smaller Pull Requests(PRs) are almost always better:

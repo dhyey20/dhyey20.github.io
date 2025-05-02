@@ -1,5 +1,7 @@
 # Why Breaking Down Problems Matters in Software Engineering
 
+![breaking down problems](./images/breaking-down-problems.png){width=100%,height=150}
+
 As software engineers, we deal with complexity every day. Whether we’re building features, fixing bugs, or designing entire systems. One of the most valuable skills any software engineer can improve on is the ability to break down problems into smaller, manageable parts. It sounds simple, but it’s a game-changer in practice. Here’s why:
 
 1. Complexity Becomes Manageable
