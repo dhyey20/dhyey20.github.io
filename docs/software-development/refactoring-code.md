@@ -25,7 +25,7 @@ Poorly structured code is often difficult to test. Refactoring can separate conc
 - **During code review**: If something feels off, suggest a refactor as a follow up PR.
 - **When code feels harder than it should be**: Trust that instinct - if it’s hard to change, it probably needs refactoring.
 
-> Refactor when it makes the next change easier to implement.
+Refactor when it makes the next change easier to implement.
 
 ## A Word of Caution
 
