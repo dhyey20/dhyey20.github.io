@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Why Breaking Down Problems Matters in Software Engineering
 
 ![breaking down problems](./images/breaking-down-problems.png){width=100%,height=150}
