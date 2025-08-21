@@ -510,3 +510,8 @@ plugins:
   - awesome-nav
   - git-revision-date-localized
   - rss
+
+extra:
+  analytics:
+    provider: google
+    property: G-Q4X1RFNHKJ
