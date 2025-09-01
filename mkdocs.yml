@@ -508,8 +508,8 @@ markdown_extensions:
 plugins: 
   - search
   - awesome-nav
-  - git-revision-date-localized
   - rss
+  # - git-revision-date-localized
 
 extra:
   analytics:
