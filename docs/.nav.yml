@@ -1,3 +1,4 @@
 nav:
+- index.md
 - Software Development: software-development
-hide: true
+# hide: true

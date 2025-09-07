@@ -398,6 +398,10 @@ theme:
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
 extra:
+  analytics:
+    provider: google
+    property: G-Q4X1RFNHKJ
+
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
   # | The social section allows you to set a list of entries which would be displayed in the footer of the |
@@ -509,9 +513,8 @@ plugins:
   - search
   - awesome-nav
   - rss
-  # - git-revision-date-localized
+  - git-revision-date-localized:
+      enable_creation_date: true
+      exclude:
+        - 'index.md'
 
-extra:
-  analytics:
-    provider: google
-    property: G-Q4X1RFNHKJ
