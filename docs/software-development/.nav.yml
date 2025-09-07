@@ -5,4 +5,5 @@ nav:
 - Refactoring Code: refactoring-code.md
 - Logging: logging.md
 - Comments in Code: comments.md
+- Instrumenting Code: instrumenting.md
 hide: true
