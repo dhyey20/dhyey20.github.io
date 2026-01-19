@@ -1,4 +1,5 @@
 nav:
+- Home: index.md
 - Breaking Down Problems: breaking-down-problems.md
 - Smaller PRs: why-smaller-prs-matter.md
 - Debugging Skills: debugging-skills.md
