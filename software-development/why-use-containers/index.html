@@ -12,13 +12,11 @@
         <meta name="author" content="Dhyey Shah">
       
       
-        <link rel="canonical" href="https://dhyey20.github.io/software-development/breaking-down-problems/">
+        <link rel="canonical" href="https://dhyey20.github.io/software-development/why-use-containers/">
       
       
-        <link rel="prev" href="../">
+        <link rel="prev" href="../instrumenting/">
       
-      
-        <link rel="next" href="../why-smaller-prs-matter/">
       
       
         
@@ -32,7 +30,7 @@
     
     
       
-        <title>Breaking Down Problems - Dhyey's Blog</title>
+        <title>Why Use Containers - Dhyey's Blog</title>
       
     
     
@@ -91,7 +89,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#why-breaking-down-problems-matters-in-software-engineering" class="md-skip">
+        <a href="#why-containers-should-be-part-of-your-development-workflow" class="md-skip">
           Skip to content
         </a>
       
@@ -127,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Breaking Down Problems
+              Why Use Containers
             
           </span>
         </div>
@@ -348,19 +346,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../breaking-down-problems/" class="md-nav__link">
         
   
   
@@ -376,7 +365,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -554,10 +542,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../why-use-containers/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Why Use Containers
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -573,6 +588,103 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#consistency-across-environments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Consistency Across Environments
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faster-onboarding" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Faster Onboarding
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#isolation-and-resource-efficiency" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Isolation and Resource Efficiency
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#simplified-dependency-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Simplified Dependency Management
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#better-cicd-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Better CI/CD Integration
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practical-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practical Tips
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-thoughts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Final Thoughts
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -605,6 +717,91 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#consistency-across-environments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Consistency Across Environments
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faster-onboarding" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Faster Onboarding
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#isolation-and-resource-efficiency" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Isolation and Resource Efficiency
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#simplified-dependency-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Simplified Dependency Management
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#better-cicd-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Better CI/CD Integration
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practical-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practical Tips
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-thoughts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Final Thoughts
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -623,25 +820,31 @@
   
 
 
-<h1 id="why-breaking-down-problems-matters-in-software-engineering">Why Breaking Down Problems Matters in Software Engineering<a class="headerlink" href="#why-breaking-down-problems-matters-in-software-engineering" title="Permanent link">&para;</a></h1>
-<p><img alt="breaking down problems" src="../images/breaking-down-problems.png" width="100%,height" /></p>
-<p>As software engineers, we deal with complexity every day. Whether we’re building features, fixing bugs, or designing entire systems. One of the most valuable skills any software engineer can improve on is the ability to break down problems into smaller, manageable parts. It sounds simple, but it’s a game-changer in practice. Here’s why:</p>
-<ol>
-<li>
-<p>Complexity Becomes Manageable</p>
-<p>Modern software systems are layered and interconnected. Trying to solve everything at once leads to confusion and fragile designs. By breaking down a problem, you isolate concerns and make it easier to understand and reason through each piece. This leads to cleaner, more maintainable code and fewer surprises down the line.</p>
-</li>
-<li>
-<p>You Can Ship Faster</p>
-<p>Decomposing a problem enables incremental progress. You can build, test, and deploy smaller parts independently, which means quicker releases and faster feedback loops. Whether you're prototyping a new feature or scaling a service, working in small, well-defined steps keeps the momentum going and helps avoid costly rewrites.</p>
-</li>
-<li>
-<p>Teamwork Gets Easier</p>
-<p>In a collaborative environment, problem decomposition is essential. It allows engineers to work in parallel without stepping on each other’s toes. It clarifies responsibilities, reduces bottlenecks, and makes onboarding smoother as the new team members can pick up a small part of the system and start contributing meaningfully right away.</p>
-</li>
-</ol>
-<p>Breaking things down isn't just a tactic, it’s a mindset. Whether you’re tackling a tough algorithm or designing a distributed system, taking the time to decompose the problem will pay off in clarity, speed, and long-term quality.</p>
-<p>Have thoughts or techniques you use for breaking down problems? I’d love to hear them.</p>
+<h1 id="why-containers-should-be-part-of-your-development-workflow">Why Containers Should Be Part of Your Development Workflow<a class="headerlink" href="#why-containers-should-be-part-of-your-development-workflow" title="Permanent link">&para;</a></h1>
+<p>As software engineers, we've all heard the phrase "it works on my machine." It has become a running joke in the industry, but it points to a real problem: environment inconsistencies that waste time and create friction. Containers solve this problem elegantly, and they've become essential to modern software development for good reasons.</p>
+<p>Here's why containers should be part of your development workflow:</p>
+<h2 id="consistency-across-environments">Consistency Across Environments<a class="headerlink" href="#consistency-across-environments" title="Permanent link">&para;</a></h2>
+<p>Containers package your application with all its dependencies, libraries, and configuration. What runs on your laptop will run the same way in staging, production, or on your teammate's machine. No more debugging environment-specific issues or spending hours setting up development environments. This consistency eliminates entire categories of bugs before they happen.</p>
+<h2 id="faster-onboarding">Faster Onboarding<a class="headerlink" href="#faster-onboarding" title="Permanent link">&para;</a></h2>
+<p>Remember the last time you joined a new project and spent days getting your local environment set up? With containers, new team members can be productive in minutes, not days. A simple <code>podman-compose up</code> gets them running with the exact same setup as everyone else. This dramatically reduces onboarding friction and lets engineers focus on writing code instead of fighting configuration.</p>
+<h2 id="isolation-and-resource-efficiency">Isolation and Resource Efficiency<a class="headerlink" href="#isolation-and-resource-efficiency" title="Permanent link">&para;</a></h2>
+<p>Containers provide process isolation without the overhead of virtual machines. You can run multiple micro-services on the same host without conflicts, and each container gets exactly the resources it needs. This makes local development cleaner and production deployments more efficient. You're not wasting memory on full OS instances, and you can pack more workloads onto the same hardware.</p>
+<h2 id="simplified-dependency-management">Simplified Dependency Management<a class="headerlink" href="#simplified-dependency-management" title="Permanent link">&para;</a></h2>
+<p>Different projects need different versions of languages, databases, or tools. Containers let you run Python 3.9 for one project and Python 3.12 for another without conflicts. You can test against multiple database versions simultaneously. This flexibility means you're not locked into a single global environment on your machine, and you can work on legacy and modern projects side by side.</p>
+<h2 id="better-cicd-integration">Better CI/CD Integration<a class="headerlink" href="#better-cicd-integration" title="Permanent link">&para;</a></h2>
+<p>Containers are the foundation of modern CI/CD pipelines. Your build, test, and deployment processes all use the same container images, ensuring consistency from development through production. This makes automated testing more reliable and deployments more predictable. When your CI pipeline passes, you have confidence it will work in production because it's the exact same artifact.</p>
+<h2 id="practical-tips">Practical Tips<a class="headerlink" href="#practical-tips" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Start small</strong>: Containerize one service or project to learn the basics.</li>
+<li><strong>Use multi-stage builds</strong>: Keep your production images lean and secure.</li>
+<li><strong>Version your images</strong>: Tag images properly so you can roll back if needed.</li>
+<li><strong>Don't store data in containers</strong>: Use volumes for persistence.</li>
+<li><strong>Keep images updated</strong>: Regularly rebuild to get security patches.</li>
+</ul>
+<h2 id="final-thoughts">Final Thoughts<a class="headerlink" href="#final-thoughts" title="Permanent link">&para;</a></h2>
+<p>Containers aren't just a deployment tool, they're a development philosophy. They enforce good practices like explicit dependencies, reproducible builds, and environment parity. Whether you're working solo or on a large team, containers reduce friction and let you focus on what matters: building great software.</p>
+<p>The learning curve is real, but the payoff is worth it. Once you've experienced the consistency and simplicity containers bring, it's hard to go back.</p>
+<p>What's been your experience with containers? Any tips or challenges you've encountered?</p>
 
 
 
@@ -664,7 +867,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="September 1, 2025 15:29:40 UTC">September 1, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="January 19, 2026 17:00:40 UTC">January 19, 2026</span>
   </span>
 
     
@@ -674,7 +877,7 @@
     <span class="md-icon" title="Created">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 30, 2025 01:26:26 UTC">April 30, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="January 19, 2026 17:00:40 UTC">January 19, 2026</span>
   </span>
 
     
