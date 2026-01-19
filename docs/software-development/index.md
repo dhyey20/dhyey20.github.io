@@ -11,6 +11,7 @@ Welcome to my collection of software development insights and best practices. Th
 - [Logging Best Practices](logging.md)
 - [Refactoring Code](refactoring-code.md)
 - [Why Smaller PRs Matter](why-smaller-prs-matter.md)
+- [Why Use Containers](why-use-containers.md)
 
 ---
 

@@ -7,4 +7,5 @@ nav:
 - Logging: logging.md
 - Comments in Code: comments.md
 - Instrumenting Code: instrumenting.md
+- Why Use Containers: why-use-containers.md
 hide: true
